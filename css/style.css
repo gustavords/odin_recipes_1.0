@@ -22,62 +22,55 @@
     src: url(../fonts/GardenaQuanto-Regular.ttf);
 }
 
-
-
-body {
-    /* background-color: var(--surface1-dim); */
+.indexBackground {
     text-align: center;
     font-family: titleText;
     background-image: url(../images/entrance-to-an-inn-in-the-praestegarden-at-hillested-martinus-rorbye-4e09d408.jpg);
     background-size: cover;
 }
 
-
 figcaption,
-h2 {
-    color: var(--text1-dim);
+#indexTitle {
+    /* color: var(--text1-dim); */
+    color: var(--brand-dim);
     text-shadow: 8px -3px 9px hsl(200deg 21.47% 74.4%);
     margin: 0;
     font-size: 2.5em;
 }
 
-h2 {
+#indexTitle {
     padding-top: 1em;
-    color: var(--brand-dim);
 }
 
-figure {
+.indexTable {
     background-color: hsla(0, 2%, 75%, 0.5);
-
 }
 
-
-ul,
-li {
+.indexTable > ul,
+.indexTable > ul > li {
     list-style-type: none;
     text-align: center;
     padding: 1em;
     font-size: 1.5em;
 }
 
-ul {
+.indexTable > ul {
     margin-top: 0;
-
 }
 
-a {
+.indexTable > ul > li > a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
     text-shadow: -2px 2px 5px rgba(255, 255, 255, 0.54);
 }
 
-a:hover {
+.indexTable > ul > li > a:hover {
     color: whitesmoke;
     text-shadow: 2px -2px 5px hsl(0, 1%, 28%);
 }
 
-li:hover {
+.indexTable > ul > li:hover {
     /* text-shadow: -4px 4px 32px rgba(239,239,34,0.54);    */
     background: radial-gradient(circle, rgba(226, 198, 121, 1) 0%, rgba(0, 0, 0, 0.04873623033197649) 100%);
 }

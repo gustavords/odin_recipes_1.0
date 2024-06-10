@@ -29,9 +29,8 @@
     background-size: cover;
 }
 
-figcaption,
+.indexTable>figcaption,
 #indexTitle {
-    /* color: var(--text1-dim); */
     color: var(--brand-dim);
     text-shadow: 8px -3px 9px hsl(200deg 21.47% 74.4%);
     margin: 0;
@@ -46,31 +45,66 @@ figcaption,
     background-color: hsla(0, 2%, 75%, 0.5);
 }
 
-.indexTable > ul,
-.indexTable > ul > li {
+.indexTable>ul,
+.indexTable>ul>li {
     list-style-type: none;
     text-align: center;
     padding: 1em;
     font-size: 1.5em;
 }
 
-.indexTable > ul {
+.indexTable>ul {
     margin-top: 0;
 }
 
-.indexTable > ul > li > a {
+.indexTable>ul>li>a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
     text-shadow: -2px 2px 5px rgba(255, 255, 255, 0.54);
 }
 
-.indexTable > ul > li > a:hover {
+.indexTable>ul>li>a:hover {
     color: whitesmoke;
     text-shadow: 2px -2px 5px hsl(0, 1%, 28%);
 }
 
-.indexTable > ul > li:hover {
-    /* text-shadow: -4px 4px 32px rgba(239,239,34,0.54);    */
+.indexTable>ul>li:hover {
     background: radial-gradient(circle, rgba(226, 198, 121, 1) 0%, rgba(0, 0, 0, 0.04873623033197649) 100%);
+}
+
+.bolinhoBackground {
+    font-family: titleText;
+    background-size: cover;
+    background-image: url(../images/bolinho-de-chuva.jpg);
+    text-align: center;
+    color: white;
+}
+
+.bolinhoBackground>div>h1 {
+    color: var(--brand);
+    font-size: 3em;
+}
+
+.bolinhoTable {
+    font-size: large;
+}
+
+.bolinhoTable>figcaption>h2 {
+    color: yellow;
+}
+
+.bolinhoTable>ul,
+.bolinhoTable>ul>li {
+    list-style-type: none;
+    padding: 0em;
+}
+
+.readerScreen {
+    background-color: rgba(0, 0, 0, 0.195);
+}
+
+.return {
+    text-decoration: none;
+    color: orange;
 }

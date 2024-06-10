@@ -106,27 +106,50 @@
     color: white;
 }
 
+/* pudim-de-leite-condensadp */
+.pudimBackground {
+    font-family: titleText;
+    background-size: cover;
+    background-image: url(../images/pudim-de-leite-condensado.jpg);
+    text-align: center;
+    color: white;
+}
+
+.pudimBackground>div>h1,
 .toalhaBackground>div>h1,
 .bolinhoBackground>div>h1 {
     color: var(--brand);
     font-size: 3em;
 }
 
+.pudimTable,
 .toalhaTable,
 .bolinhoTable {
     font-size: large;
 }
-
+.pudimTable>figcaption>h2,
 .toalhaTable>figcaption>h2,
 .bolinhoTable>figcaption>h2 {
     color: yellow;
 }
-.toalhaTable>ul>p{
+
+.pudimTable>ul>p,
+.toalhaTable>ul>p {
     color: salmon;
     font-size: large;
     background-color: rgba(0, 0, 0, 0.15);
 }
 
+.pudimTable>ol>li>p{
+    color: black;
+    font-weight: bold;
+}
+.pudimTable>ol>li{
+    list-style-type: none;
+}
+
+.pudimTable>ul,
+.pudimTable>ul>li,
 .toalhaTable>ul,
 .toalhaTable>ul>li,
 .bolinhoTable>ul,

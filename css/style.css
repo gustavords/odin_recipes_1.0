@@ -22,6 +22,8 @@
     src: url(../fonts/GardenaQuanto-Regular.ttf);
 }
 
+/*index.html*/
+
 .indexBackground {
     text-align: center;
     font-family: titleText;
@@ -73,6 +75,20 @@
     background: radial-gradient(circle, rgba(226, 198, 121, 1) 0%, rgba(0, 0, 0, 0.04873623033197649) 100%);
 }
 
+/* ----------------------------------- */
+
+
+/*recipes css*/
+.readerScreen {
+    background-color: rgba(0, 0, 0, 0.23);
+}
+
+.return {
+    text-decoration: none;
+    color: orange;
+}
+
+/*bolinho-de-chuva.html*/
 .bolinhoBackground {
     font-family: titleText;
     background-size: cover;
@@ -81,30 +97,40 @@
     color: white;
 }
 
+/* bolo-toalha-felpuda */
+.toalhaBackground {
+    font-family: titleText;
+    background-size: cover;
+    background-image: url(../images/bolo-toalha-felpuda.jpg);
+    text-align: center;
+    color: white;
+}
+
+.toalhaBackground>div>h1,
 .bolinhoBackground>div>h1 {
     color: var(--brand);
     font-size: 3em;
 }
 
+.toalhaTable,
 .bolinhoTable {
     font-size: large;
 }
 
+.toalhaTable>figcaption>h2,
 .bolinhoTable>figcaption>h2 {
     color: yellow;
 }
+.toalhaTable>ul>p{
+    color: salmon;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.15);
+}
 
+.toalhaTable>ul,
+.toalhaTable>ul>li,
 .bolinhoTable>ul,
 .bolinhoTable>ul>li {
     list-style-type: none;
     padding: 0em;
-}
-
-.readerScreen {
-    background-color: rgba(0, 0, 0, 0.195);
-}
-
-.return {
-    text-decoration: none;
-    color: orange;
 }

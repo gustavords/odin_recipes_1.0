@@ -48,15 +48,10 @@
     margin-bottom: 0;
 }
 
-#indexTitle {
-    /* padding-top: 1em; */
-}
-
 .indexTable {
     background-color: hsla(0, 2%, 75%, 0.5);
     margin: 10% 0px;
 }
-
 
 .indexTable>ul {
     padding: 0 1em 1em 1em;
@@ -68,7 +63,6 @@
     margin: .2em;
     font-size: 1.5em;
 }
-
 
 .indexTable>ul>li>a {
     text-decoration: none;
@@ -94,16 +88,27 @@
 /*recipes css*/
 .readerScreen {
     background-color: rgba(0, 0, 0, 0.23);
+    margin: 1em;
+}
+.readerScreen>p {
+    margin: 1em;
+    font-size: large;
+    font-style: italic;
 }
 
 .return {
     text-decoration: none;
-    color: orange;
+    color: rgb(209, 152, 39);
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+    padding: .2em 1em;
 }
 
 /*bolinho-de-chuva.html*/
 .bolinhoBackground {
-    font-family: titleText;
+    /* font-family: titleText; */
     background-size: cover;
     background-image: url(../images/bolinho-de-chuva.jpg);
     text-align: center;
@@ -166,9 +171,31 @@
 .pudimTable>ul,
 .pudimTable>ul>li,
 .toalhaTable>ul,
-.toalhaTable>ul>li,
-.bolinhoTable>ul,
-.bolinhoTable>ul>li {
+.toalhaTable>ul>li {
     list-style-type: none;
     padding: 0em;
 }
+
+
+/*altered*/
+
+.bolinhoTable>ul {
+    list-style-type: none;
+    /* display: inline-block; */
+}
+
+.bolinhoTable>ul>li {
+    padding: .5em;
+}
+
+.bolinhoTable>ol {
+    list-style-type: decimal;
+    display: inline;
+    padding: .5em;
+}
+
+.bolinhoTable>ol>li {
+    padding: .5em;
+    list-style-position: inside;
+}
+

@@ -15,6 +15,10 @@
     --surface4-dim: hsl(var(--brand-hue) 5% 35%);
     --surface-shadow-dim: var(--brand-hue) 30% 13%;
     --shadow-strength-dim: .2;
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -31,39 +35,48 @@
     background-size: cover;
 }
 
+.indexTable {
+    margin: auto;
+}
+
 .indexTable>figcaption,
 #indexTitle {
     color: var(--brand-dim);
     text-shadow: 8px -3px 9px hsl(200deg 21.47% 74.4%);
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
+    margin-bottom: 0;
 }
 
 #indexTitle {
-    padding-top: 1em;
+    /* padding-top: 1em; */
 }
 
 .indexTable {
     background-color: hsla(0, 2%, 75%, 0.5);
+    margin: 10% 0px;
 }
 
-.indexTable>ul,
+
+.indexTable>ul {
+    padding: 0 1em 1em 1em;
+}
+
 .indexTable>ul>li {
     list-style-type: none;
     text-align: center;
-    padding: 1em;
+    margin: .2em;
     font-size: 1.5em;
 }
 
-.indexTable>ul {
-    margin-top: 0;
-}
 
 .indexTable>ul>li>a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
     text-shadow: -2px 2px 5px rgba(255, 255, 255, 0.54);
+    display: block;
+    padding: 1em;
 }
 
 .indexTable>ul>li>a:hover {
@@ -127,6 +140,7 @@
 .bolinhoTable {
     font-size: large;
 }
+
 .pudimTable>figcaption>h2,
 .toalhaTable>figcaption>h2,
 .bolinhoTable>figcaption>h2 {
@@ -140,11 +154,12 @@
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-.pudimTable>ol>li>p{
+.pudimTable>ol>li>p {
     color: black;
     font-weight: bold;
 }
-.pudimTable>ol>li{
+
+.pudimTable>ol>li {
     list-style-type: none;
 }
 

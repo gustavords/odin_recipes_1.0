@@ -90,6 +90,7 @@
     background-color: rgba(0, 0, 0, 0.23);
     margin: 1em;
 }
+
 .readerScreen>p {
     margin: 1em;
     font-size: large;
@@ -178,24 +179,28 @@
 
 
 /*altered*/
-
+.toalhaTable>ul,
 .bolinhoTable>ul {
-    list-style-type: none;
-    /* display: inline-block; */
+    /* list-style-type:none; */
+    display: inline-block;
 }
 
+.toalhaTable>ul>li,
 .bolinhoTable>ul>li {
     padding: .5em;
+    list-style-position: inside;
+    list-style-type: circle;
 }
 
+.toalhaTable>ol,
 .bolinhoTable>ol {
     list-style-type: decimal;
     display: inline;
     padding: .5em;
 }
 
+.toalhaTable>ol>li,
 .bolinhoTable>ol>li {
     padding: .5em;
     list-style-position: inside;
 }
-
